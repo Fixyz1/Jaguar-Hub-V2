@@ -14,7 +14,7 @@ end)
 
 local Tab = Window:NewTab("Mining Simulator 2")
 local MiningSimulator2Section = Tab:NewSection("Mining Simulator 2")
-MainSection:NewKeybind("UI Keybind Toggle", "Toggles Jaguar Hub Beta", Enum.KeyCode.Q, function(v)
+MiningSimulator2Section:NewKeybind("UI Keybind Toggle", "Toggles Jaguar Hub Beta", Enum.KeyCode.Q, function(v)
     Library:ToggleUI(Q)
 end)
 MiningSimulator2Section:NewButton("🟩Zeerox", "Best Script As Of Right Now", function(v)
