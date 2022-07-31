@@ -1,20 +1,20 @@
 -- Newest Verison!
 
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("Jaguar Hub Beta", "DarkTheme")
+local Window = Library.CreateLib("Power Software V2", "DarkTheme")
 
 local Tab = Window:NewTab("GameHub")
 local GameHubSection = Tab:NewSection("GameHub")
-GameHubSection:NewButton("Notification Sender", "(Tells You About Jaguar Hub V3)", function(v)
-    game.StarterGui:SetCore("SendNotification", {Title = "Ballz", Text = "SUCK ME TOES", Icon = "rbxassetid://10003745041", Duration = 4})
+GameHubSection:NewButton("Notification Sender", "(Tells You About Power Software V3)", function(v)
+    game.StarterGui:SetCore("SendNotification", {Title = "???", Text = "it has alot of scripts", Icon = "rbxassetid://10003745041", Duration = 4})
 end)
-GameHubSection:NewButton("Jaguar Hub Version 3", "(No Key Required)", function(v)
-    loadstring(game:HttpGet("https://pastebin.com/raw/ASxYB9Ca",true))()
+GameHubSection:NewButton("Power Software V3", "(No Key Required)", function(v)
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/JustAfkHatch/Power-Software-V3/main/For-Roblox/NewMainScript/.Lua",true))()
 end)
 
 local Tab = Window:NewTab("Mining Simulator 2")
 local MiningSimulator2Section = Tab:NewSection("Mining Simulator 2")
-MiningSimulator2Section:NewKeybind("UI Keybind Toggle", "Toggles Jaguar Hub Beta", Enum.KeyCode.Q, function(v)
+MiningSimulator2Section:NewKeybind("UI Keybind Toggle", "Toggles Power Software V2", Enum.KeyCode.Q, function(v)
     Library:ToggleUI(Q)
 end)
 MiningSimulator2Section:NewButton("🟩Zeerox", "Best Script As Of Right Now", function(v)
